@@ -1,6 +1,10 @@
 # WordPress_Plugins_List_craw
 
-爬取wordpress的插件列表用于道德渗透测试中枚举wordpress插件
+在一次CTF靶机中使用了 https://github.com/Perfectdotexe/WordPress-Plugins-List 仓库中的词典，重新用AI写了一个简单的脚本，用于爬取wordpress的插件列表用于道德渗透测试中枚举wordpress插件
+示例使用如下
+```sudo gobuster dir -u http://<IP>/wp-content/plugins -w plugins.txt -t 30```
+<img width="864" height="430" alt="image" src="https://github.com/user-attachments/assets/7812a575-4b4a-4df2-baf0-0662f22b9f6f" />
+
 
 # WordPress 插件列表爬取工具
 
