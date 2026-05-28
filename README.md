@@ -1,0 +1,2 @@
+# WordPress_Plugins_List_craw
+爬取wordpress的插件列表用于道德渗透测试中枚举wordpress插件
